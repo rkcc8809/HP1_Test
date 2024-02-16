@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/TOP-header.png);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.top::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  background-color: rgb(0 0 0 / 30%);
+}
+
+.top-wrap {
+  max-width: 1400px;
+  width: 85%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-wrap__left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.top-wrap__left__ttl {
+  color: #fff;
+}
+
+.top-wrap__left__ttl h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-shadow: 5px 5px 7px rgb(0 0 0 / 100%);
+  margin-bottom: 3.5%;
+  line-height: 1;
+}
+
+.top-wrap__left__ttl hr {
+  border: none;
+  border-top: 2px solid #fff;
+  width: 9.6rem;
+  box-shadow: 5px 5px 7px rgb(0 0 0 / 100%);
+}
+
+.top-wrap__left__ttl p {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-shadow: 5px 5px 7px rgb(0 0 0 / 100%);
+  line-height: 1.6;
+}
+
+.top-wrap__right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.top-wrap__right__sche {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 1%;
+  font-size: 2.4rem;
+  font-weight: 500;
+  width: 100%;
+}
+
+.top-wrap__right__sche table tr:nth-of-type(2) td,
+.top-wrap__right__sche table tr:nth-of-type(3) td {
+  color: #019f8b;
+}
+
+.top-wrap__right__sche table {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.top-wrap__right__sche table tr th {
+  padding: 8px 32px 8px 0;
+  font-weight: 400;
+  width: 36%;
+}
+
+.top-wrap__right__sche table tr td {
+  font-weight: 400;
+}
+
+.top-wrap__right__sche table tr:nth-of-type(1),
+.top-wrap__right__sche table tr:nth-of-type(2) {
+  border-bottom: dashed 1px #ccc;
+}
+
+/* greet */
+.greet {
+  background-color: #fff;
+}
+
+.greet-wrap {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.greet-wrap__left {
+  width: 45%;
+  aspect-ratio: 7 / 5;
+}
+
+.greet-wrap__left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.greet-wrap__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* padding-right: 1%; */
+  /* background-color: #019F8B; */
+}
+
+.greet-wrap__right__txt {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.greet-wrap__right__txt__name {
+  font-size: 1.6rem;
+  text-align: right;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.reason {
+  background-color: #f3f9f7;
+}
+
+.reason-wrap__ttl {
+  text-align: center;
+}
+
+.reason-wrap__ttl h2 {
+  font-size: 4rem;
+}
+
+.reason-wrap__body__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.reason-wrap__body__block__left {
+  width: 50%;
+}
+
+.reason-wrap__body__block__left__txt {
+  margin-top: 5rem;
+  font-size: 1.6rem;
+}
+
+.reason-wrap__body__block__left__btn {
+  margin-top: 45px;
+}
+
+.reason-wrap__body__block__right {
+  width: 45%;
+}
+
+.reason-wrap__body__block__right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reason-wrap__body hr {
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.info {
+  background-color: #019f8b;
+}
+
+.info-wrap__ttl {
+  text-align: center;
+  color: #fff;
+}
+
+.info-wrap__body__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.info-wrap__body__block__left {
+  width: 45%;
+  aspect-ratio: 7 / 5;
+}
+
+.info-wrap__body__block__left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-wrap__body__block__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-wrap__body__block__right__txt {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.info-wrap__body hr {
+  margin-top: 5rem;
+  width: 50%;
+  margin-left: auto;
+}
+
+.access-wrap__ttl {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.access-wrap__body {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.access-wrap__body__left {
+  width: 30%;
+}
+
+.access-wrap__body__left__txt {
+  font-size: 1.6rem;
+  line-height: 3;
+}
+
+.access-wrap__body__right {
+  width: 55%;
+}
+
+.access-wrap__body__right iframe {
+  display: block;
+  width: 100%;
+}
+

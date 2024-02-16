@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/Guide-header.png);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.lineup-wrap__body__block__ttl {
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.lineup-wrap__body__block__con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.lineup-wrap__body__block__con__pic {
+  width: 30%;
+  margin-bottom: 5%;
+}
+
+.lineup-wrap__body__block__con__pic a {
+  transition: all 0.3s;
+}
+
+.lineup-wrap__body__block__con__pic a:hover {
+  opacity: 0.7;
+}
+
+.lineup-wrap__body__block__con__pic img {
+  width: 100%;
+  display: block;
+}
+
+.lineup-wrap__body__block hr {
+  margin-bottom: 10%;
+}

@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/Contact-header.png);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.about-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-wrap__con__left {
+  width: 43%;
+  aspect-ratio: 7 / 5;
+}
+
+.about-wrap__con__left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-wrap__con__right {
+  width: 50%;
+}
+
+.about-wrap__con__right p {
+  margin-top: 2.5rem;
+  font-size: 1.6rem;
+}
+
+.about-wrap__block {
+  border: 1px solid #606060;
+  margin-top: 5%;
+  text-align: center;
+  padding: 2%;
+}
+
+.about-wrap__block__ttl {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin: 2% 0;
+}
+
+.about-wrap__block hr {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-wrap__block p {
+  font-size: 1.6rem;
+  margin: 2% 0;
+}
+
+
+
+.hos {
+  background-color: #f3f9f7;
+}
+
+.hos-wrap__ttl {
+  text-align: center;
+}
+
+.hos-wrap__ttl .ttl {
+  font-size: 4rem;
+}
+
+.hos-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.hos-wrap__con__block {
+  width: 30%;
+  aspect-ratio: 4 / 3;
+}
+
+.hos-wrap__con__block img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hos-wrap__con__block h4 {
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-top: 3rem;
+}
+
+.confident {
+  background-color: #f3f9f7;
+}
+
+.confident-wrap__ttl {
+  text-align: center;
+}
+
+.confident-wrap__ttl h2 {
+  font-size: 4rem;
+}
+
+.confident-wrap__ttl p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 1.5%;
+}
+
+.confident-wrap__body {
+  background-color: #fff;
+  padding: 3% 9%;
+  margin-top: 5%;
+}
+
+.confident-wrap__body__block {
+  margin: 2.5% 0;
+}
+
+.confident-wrap__body__block h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+  margin-left: 3%;
+}
+
+.confident-wrap__body__block h4::before {
+  content: "";
+  position: absolute;
+  left: -3%;
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: 2px;
+  border-right: solid 7px;
+  border-color: #019f8b;
+}
+
+.confident-wrap__body__block p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 2%;
+}

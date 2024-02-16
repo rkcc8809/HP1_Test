@@ -1,0 +1,263 @@
+@charset "UTF-8";
+
+.top::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 30%);
+}
+
+.top-wrap {
+  position: relative;
+  max-width: 1400px;
+  width: 85%;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+.top-wrap__ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-wrap__ttl h1 {
+  color: #fff;
+  font-size: 4.8rem;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 100%);
+}
+
+.breadcrumb-wrap {
+  padding-bottom: 0;
+}
+
+.breadcrumb-wrap__nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.breadcrumb-wrap__nav__list__item:nth-of-type(1) {
+  font-size: 1.6rem;
+}
+
+.breadcrumb-wrap__nav__list__item:nth-of-type(1)::after {
+  content: ">";
+  margin: 0 10px;
+  color: #606060;
+}
+
+.breadcrumb-wrap__nav__list__item a {
+  color: #606060;
+  text-decoration: none;
+}
+
+.breadcrumb-wrap__nav__list__item:nth-last-of-type(1) a {
+  /* color: #019f8b; */
+  font-size: 1.65rem;
+}
+
+.tab-wrap__nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-wrap__nav__list__item {
+  width: 30%;
+  text-align: center;
+  list-style: none;
+}
+
+.tab-wrap__nav__list__item a {
+  display: block;
+  color: #606060;
+  font-size: 2.4rem;
+  font-weight: 500;
+  background-color: #ace3dc;
+  border-radius: 20px;
+  padding: 10px 0;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.tab-wrap__nav__list__item a:hover {
+  background-color: #019f8b;
+  color: #fff;
+}
+
+.tab-wrap__nav__list__item.__now a {
+  background-color: #019f8b;
+  color: #fff;
+}
+
+.guide-about {
+  background-color: #019f8b;
+}
+
+.guide-about-wrap {
+  width: 80%;
+  text-align: center;
+}
+
+.guide-about-wrap .ttl {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.guide-about-wrap img {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  margin-top: 8%;
+}
+
+.guide-about-wrap p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 8%;
+  display: inline-block;
+  text-align: left;
+}
+
+.flow-wrap__ttl {
+  text-align: center;
+}
+
+.flow-wrap__body__block {
+  padding-left: 6%;
+  padding-right: 6%;
+  margin-top: 2%;
+  position: relative;
+}
+
+.flow-wrap__body__block:nth-of-type(1) {
+  margin-top: 5%;
+}
+
+.flow-wrap__body__block__txt h4 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #019f8b;
+}
+
+.flow-wrap__body__block__txt p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1.8rem;
+  margin-left: 6.7rem;
+}
+
+.flow-wrap__body__block::before {
+  content: "";
+  position: absolute;
+  top: 60px;
+  left: 7.25%;
+  display: block;
+  width: 0;
+  height: calc(100% - 40px);
+  border-radius: 2px;
+  border-right: solid 2px;
+  border-color: #019f8b;
+}
+
+.flow-wrap__body__block:last-child::before {
+  content: none; /* ::before 疑似要素を削除 */
+}
+
+.flow-wrap__body__block__txt .btn {
+  margin-left: 6.7rem;
+  margin-top: 3rem;
+}
+
+
+.faq-wrap__ttl {
+  text-align: center;
+}
+
+.faq-wrap__ttl .ttl {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.faq-wrap__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.5%;
+}
+
+.faq-wrap__body__list {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.faq-wrap__body__list__item {
+  position: relative;
+  margin-top: 4%;
+  background-color: #ace3dc;
+  padding: 3.5% 5%;
+  list-style: none;
+}
+
+.faq-wrap__body__list__item__tog {
+  display: none;
+}
+
+.faq-wrap__body__list__item__tog:checked
+  + .faq-wrap__body__list__item__ttl
+  + .faq-wrap__body__list__item__con {
+  max-height: 500px;
+  transition: all 1s;
+}
+
+.faq-wrap__body__list__item__tog:checked
+  + .faq-wrap__body__list__item__ttl::before {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__body__list__item__ttl,
+.faq-wrap__body__list__item__con {
+  transform: translate(0);
+  transition: all 0.3s;
+}
+
+.faq-wrap__body__list__item__ttl {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.faq-wrap__body__list__item__ttl::after,
+.faq-wrap__body__list__item__ttl::before {
+  content: "";
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 1.5px;
+  height: 24px;
+  background-color: #606060;
+  transition: all 0.3s;
+}
+
+.faq-wrap__body__list__item__ttl::after {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__body__list__item__con {
+  max-height: 0;
+  overflow: hidden;
+  width: 92.5%;
+}
+
+.faq-wrap__body__list__item__con p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 1% 0 1%;
+}

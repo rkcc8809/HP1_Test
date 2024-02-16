@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/Recruit-header.png);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+
+.rec-wrap__ttl {
+  text-align: center;
+}
+
+.rec-wrap__ttl .ttl {
+  font-size: 4rem;
+}
+
+.rec-wrap__body {
+  margin: 7.5% 0 0;
+}
+
+.rec-wrap__body__block {
+  margin: 2.5% 0;
+}
+
+.rec-wrap__body__block .ttl {
+  font-size: 3.2rem;
+}
+
+.rec-wrap__body__block p {
+  font-size: 1.6rem;
+}
+
+.rec-wrap__body__block hr {
+  margin: 2% 0;
+}
+
+.rec-wrap__body__block__add {
+  margin-top: 1%;
+}

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/Guide-header.png);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.cause-wrap .ttl {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.cause-wrap__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.cause-wrap__body__left {
+  width: 41%;
+  aspect-ratio: 7 / 5;
+}
+
+.cause-wrap__body__left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cause-wrap__body__right {
+  width: 47%;
+}
+
+.cause-wrap__body__right p {
+  font-size: 1.6rem;
+}
+
+.risk {
+  background-color: #f3f9f7;
+}
+
+.risk-wrap__top__ttl {
+  text-align: center;
+}
+
+.risk-wrap__top__ttl .ttl {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.risk-wrap__top__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.risk-wrap__top__body__left {
+  width: 45%;
+}
+
+.risk-wrap__top__body__left .ttl {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.risk-wrap__top__body__left p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 5%;
+}
+
+.risk-wrap__top__body__right {
+  width: 43%;
+  aspect-ratio: 7 / 5;
+}
+
+.risk-wrap__top__body__right img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.risk-wrap__hr {
+  margin: 5% 0;
+}
+
+.risk-wrap__bottom__ttl {
+  text-align: center;
+}
+
+.risk-wrap__bottom__ttl .ttl {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.risk-wrap__bottom__body__block {
+  background-color: #fff;
+  margin-top: 5%;
+  padding: 3% 10%;
+}
+
+.risk-wrap__bottom__body__block__ttl .ttl {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.risk-wrap__bottom__body__block p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 1%;
+}
+
+.risk-wrap__bottom__body__block__name {
+  margin-top: 4%;
+}
+
+.risk-wrap__bottom__body__block__name h6 {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #019f8b;
+}
+
+.risk-wrap__bottom__body__block__name p {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+

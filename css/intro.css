@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+.top {
+  background-image: url(../img/Intro-header.png);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+  z-index: 0;
+}
+
+.greet {
+  background-color: #fff;
+}
+
+.greet-wrap__all {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.greet-wrap__all__left {
+  width: 45%;
+  aspect-ratio: 7 / 5;
+}
+
+.greet-wrap__all__left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.greet-wrap__all__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.greet-wrap__all__right__txt {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.greet-wrap__all__right__txt__name {
+  font-size: 1.6rem;
+  text-align: right;
+  margin-top: 0.5rem;
+  font-weight: 400;
+}
+
+.greet-wrap hr {
+  margin: 10% 0 0;
+}
+
+.prof-wrap {
+  padding: 1% 0;
+}
+
+.prof-wrap__ttl {
+  text-align: center;
+}
+
+.prof-wrap__ttl .ttl {
+  font-size: 4rem;
+}
+
+.prof-wrap__table {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.prof-wrap__table table {
+  width: 100%;
+  /* table-layout: fixed; */
+}
+
+.prof-wrap__table tr {
+  border-bottom: 1px solid #606060;
+}
+
+.prof-wrap__table th {
+  font-size: 2.4rem;
+  font-weight: 500;
+  /* padding: 36px; */
+  background-color: #ddd;
+  width: 30%;
+  vertical-align: middle;
+}
+
+.prof-wrap__table td {
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: #eee;
+  width: 70%;
+  padding: 3% 6% 3%;
+}
+
+.prof-wrap__table td span {
+  margin-left: 9px;
+}
+
+.staff {
+  background-color: #f3f9f7;
+}
+
+.staff-wrap__ttl {
+  text-align: center;
+}
+
+.staff-wrap__ttl .ttl {
+  font-size: 4rem;
+}
+
+.staff-wrap__body {
+  margin-top: 6%;
+}
+
+.staff-wrap__body__block {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-bottom: 6%;
+}
+
+.staff-wrap__body__block__left {
+  width: 30%;
+  margin-left: 15%;
+}
+
+.staff-wrap__body__block__left i {
+  font-size: 20rem;
+  color: #019F8B;
+}
+
+.staff-wrap__body__block__right {
+  width: 47.5%;
+}
+
+.staff-wrap__body__block__right .ttl {
+  font-size: 4rem;
+}
+
+.staff-wrap__body__block__right p {
+  font-size: 1.6rem;
+}
+
+.staff-wrap__body__block__right p:nth-of-type(1) {
+  margin: 3% 0;
+}
